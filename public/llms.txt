@@ -26,6 +26,7 @@
 - [Developer & AI Harness Integration Docs](https://www.nealfrazier.tech/pets/docs): Open MCP tool schemas, Python harness code, and contribution guidelines
 - [AI Tech Stack Hub](https://www.nealfrazier.tech/ai-tech-stack): Deep-dive into Nous Research, Hermes 3, Google Antigravity (AGY), Google AI Studio, Netlify AI, and Hostinger Horizon AI
 - [Builds Showcase](https://www.nealfrazier.tech/builds): Live showcase of deployed products, challenges, and tools
+- [Motion Reels](https://www.nealfrazier.tech/motion): Brand motion gallery — fan edits, Zoth, studio tools, works-with, launch, and Netlify reels
 - [Services / Offerings](https://www.nealfrazier.tech/offerings): Netlify sites, answer-engine optimization, and AI systems for 757 Hampton Roads, plus Zoth Studio, ZOTHOS, and NullAI. Engagements start with a $99 kickoff deposit and flat-rate packages from $149 to $997.
 - [Wiki / Knowledge Base](https://www.nealfrazier.tech/wiki): Evergreen knowledge — concepts, tools, and long-term projects I'm building on.
 - [Blog / Stories](https://www.nealfrazier.tech/blog): Stories from the journey — building, learning, and solving real problems for real businesses.

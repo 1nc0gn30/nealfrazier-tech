@@ -8,6 +8,8 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    env:
+      VITE_MOTION_MEDIA_BASE: https://motion.nealfrazier.tech
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4

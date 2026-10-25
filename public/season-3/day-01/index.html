@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#0b0b0f" />
+  <title>Season 3 — 30 Daily Drops · Day 01 · Neal Frazier Tech</title>
+  <meta name="description" content="Season 2 chased 100 sites and burned out. Season 3 ships one great drop per day — live URL, 15s reel, and the real story on X." />
+  <meta name="author" content="Neal Frazier Tech" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://www.nealfrazier.tech/season-3/day-01/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Season 3 — 30 Daily Drops · Day 01" />
+  <meta property="og:description" content="Season 2 failed loudly. Season 3: one great drop a day." />
+  <meta property="og:url" content="https://www.nealfrazier.tech/season-3/day-01/" />
+  <meta property="og:site_name" content="Neal Frazier Tech" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="@NealFrazierTech" />
+  <meta name="twitter:creator" content="@NealFrazierTech" />
+  <style>
+    :root {
+      --bg: #050506;
+      --ink: #f4f1ea;
+      --mute: rgba(236, 232, 224, 0.64);
+      --gold: #f2c85b;
+      --gold-d: #b8862b;
+      --glass: linear-gradient(150deg, rgba(255,255,255,.12) 0%, rgba(255,255,255,.04) 40%, rgba(255,220,140,.06) 100%);
+      --pad: clamp(1.25rem, 4vw, 2.5rem);
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html { color-scheme: dark; }
+    body {
+      min-height: 100dvh;
+      font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      color: var(--ink);
+      background:
+        radial-gradient(120% 80% at 50% 20%, #15110a 0%, #0a0908 45%, var(--bg) 100%);
+      line-height: 1.55;
+      -webkit-font-smoothing: antialiased;
+    }
+    .wrap {
+      max-width: 42rem;
+      margin: 0 auto;
+      padding: calc(var(--pad) + 1rem) var(--pad) 3rem;
+    }
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.55rem;
+      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+      font-size: 0.78rem;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 1.1rem;
+    }
+    .eyebrow::before {
+      content: "";
+      width: 0.45rem; height: 0.45rem;
+      border-radius: 50%;
+      background: var(--gold);
+      box-shadow: 0 0 12px 2px rgba(242,200,91,.7);
+    }
+    h1 {
+      font-size: clamp(2rem, 7vw, 2.85rem);
+      font-weight: 780;
+      letter-spacing: -0.04em;
+      line-height: 1.05;
+      background: linear-gradient(180deg, #fff6d2 0%, #f7da86 26%, #e0b04a 52%, #b07d22 76%, #f1d27c 100%);
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+      margin-bottom: 0.55rem;
+    }
+    .sub {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+      font-size: 0.95rem;
+      color: var(--mute);
+      letter-spacing: 0.04em;
+      margin-bottom: 1.75rem;
+    }
+    .card {
+      position: relative;
+      border-radius: 1.35rem;
+      padding: 1.35rem 1.4rem 1.45rem;
+      background: var(--glass);
+      -webkit-backdrop-filter: blur(24px) saturate(150%);
+      backdrop-filter: blur(24px) saturate(150%);
+      box-shadow:
+        inset 0 1px 0 rgba(255,255,255,.28),
+        inset 0 -1px 0 rgba(255,255,255,.05),
+        0 30px 80px -28px rgba(0,0,0,.85),
+        0 0 60px -24px rgba(242,200,91,.22);
+      margin-bottom: 1.5rem;
+    }
+    .card::before {
+      content: "";
+      position: absolute; inset: 0;
+      border-radius: inherit;
+      padding: 1.5px;
+      pointer-events: none;
+      background: linear-gradient(135deg, rgba(255,238,180,.85), rgba(255,238,180,.1) 35%, rgba(242,200,91,.55) 100%);
+      -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+      -webkit-mask-composite: xor;
+      mask-composite: exclude;
+    }
+    .card p { color: rgba(244,241,234,.88); margin-bottom: 0.9rem; }
+    .card p:last-child { margin-bottom: 0; }
+    .card strong { color: #fff; font-weight: 650; }
+    .links {
+      display: flex;
+      flex-direction: column;
+      gap: 0.65rem;
+      margin: 1.5rem 0 2rem;
+    }
+    .links a {
+      display: block;
+      text-decoration: none;
+      color: var(--ink);
+      padding: 0.85rem 1.05rem;
+      border-radius: 999px;
+      background: rgba(255,255,255,.05);
+      box-shadow: inset 0 0 0 1.5px rgba(247,211,111,.32);
+      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+      font-size: 0.86rem;
+      letter-spacing: 0.02em;
+      transition: background .15s ease, box-shadow .15s ease;
+    }
+    .links a:hover, .links a:focus-visible {
+      background: rgba(247,211,111,.12);
+      box-shadow: inset 0 0 0 1.5px rgba(247,211,111,.65);
+      outline: none;
+    }
+    .links a span { color: var(--gold); margin-right: 0.45rem; }
+    footer {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+      font-size: 0.8rem;
+      color: var(--mute);
+      letter-spacing: 0.06em;
+      padding-top: 0.5rem;
+      border-top: 1px solid rgba(247,211,111,.18);
+    }
+    footer a { color: var(--gold); text-decoration: none; }
+    footer a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <div class="eyebrow">Kickoff note</div>
+    <h1>Season 3 — 30 Daily Drops</h1>
+    <p class="sub">Day 01 · 2026-10-26</p>
+
+    <article class="card">
+      <p>
+        Season 2 chased <strong>100 websites in 30 days</strong>.
+        It burned out. The count lost to honesty — and the archive stayed up on purpose.
+      </p>
+      <p>
+        Season 3 flips the contract: <strong>one great drop per day</strong>.
+        Every day = a live URL + a 15-second reel + the real story on X.
+      </p>
+      <p>
+        No silent days. No partnership claims. Just shipping in public —
+        product, utility, and the occasional fail-loudly experiment.
+      </p>
+    </article>
+
+    <nav class="links" aria-label="Related links">
+      <a href="https://100websitesin30days.nealfrazier.tech/"><span>↗</span>Season 2 archive (kept on purpose)</a>
+      <a href="https://www.nealfrazier.tech/motion/"><span>↗</span>Motion gallery</a>
+      <a href="https://www.nealfrazier.tech/"><span>↗</span>nealfrazier.tech</a>
+    </nav>
+
+    <footer>
+      Neal Frazier Tech · <a href="https://x.com/NealFrazierTech">@NealFrazierTech</a>
+    </footer>
+  </main>
+</body>
+</html>
